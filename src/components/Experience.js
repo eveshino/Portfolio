@@ -2,7 +2,12 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import ExpCard from "./cards/ExpCard";
 import classes from "./Experience.module.css";
-
+import html5 from "../images/HTML5.svg";
+import css3 from "../images/CSS3.svg";
+import js from "../images/JavaScript.svg";
+import react from "../images/React.svg";
+import github from "../images/github.svg";
+import nodejs from "../images/Nodejs.svg";
 function Experience() {
   return (
     <div className={classes.carousel}>
@@ -56,11 +61,12 @@ function Experience() {
         swipeable
         transitionDuration={1000}
       >
-        <ExpCard />
-        <ExpCard />
-        <ExpCard />
-        <ExpCard />
-        <ExpCard />
+        <ExpCard TechImg={html5} TechName={"html 5"} />
+        <ExpCard TechImg={css3} TechName={"css 3"} />
+        <ExpCard TechImg={js} TechName={"javascript"} />
+        <ExpCard TechImg={react} TechName={"react"} />
+        <ExpCard TechImg={nodejs} TechName={"nodejs"} />
+        <ExpCard TechImg={github} TechName={"github"} />
       </Carousel>
     </div>
   );

@@ -9,12 +9,15 @@
   height: 45vh;
   background: #fff;
   color: rgb(0, 0, 0);
-  font-size: 3rem;
   margin: 0 30px;
+}
+.card h1 {
+  font-size: 2rem;
   display: flex;
   justify-content: center;
-  align-items: center;
-  border-radius: 20px;
-  -webkit-box-shadow: 1px 1px 0 0 #000000;
-  box-shadow: 1px 1px 2px 0 #000000;
+}
+.card img {
+  margin-top: 4vh;
+  height: 35vh;
+  width: 100%;
 }

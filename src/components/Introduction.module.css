@@ -3,12 +3,11 @@
   height: 70vh;
   color: black;
   display: flex;
-  margin-left: 5vh;
 }
 
 .nameIntro {
   font-family: "SF Pro Display";
-  margin-left: 10vh;
+  margin-left: 15vh;
   margin-top: 20vh;
 }
 .nameIntro h1 {
