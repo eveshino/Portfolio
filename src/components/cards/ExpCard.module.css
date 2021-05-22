@@ -1,0 +1,20 @@
+.carousel {
+  margin-top: 10px;
+  height: 50vh;
+}
+
+.card {
+  font-family: "SF Pro Display";
+  width: 75%;
+  height: 45vh;
+  background: #fff;
+  color: rgb(0, 0, 0);
+  font-size: 3rem;
+  margin: 0 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  -webkit-box-shadow: 1px 1px 0 0 #000000;
+  box-shadow: 1px 1px 2px 0 #000000;
+}

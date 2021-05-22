@@ -1,0 +1,56 @@
+.home {
+  background-color: black;
+  width: 100%;
+  height: 90vh;
+  border-bottom-left-radius: 90% 20%;
+  border-bottom-right-radius: 90% 20%;
+  display: grid;
+}
+.text {
+  color: white;
+  font-size: 0.7rem;
+  margin: 0;
+  display: flex;
+  height: 3vh;
+  justify-content: center;
+  align-items: center;
+  font-family: "SF Pro Display";
+}
+.maintext {
+  font-size: 5rem;
+  font-family: "SF Pro Display";
+  background: linear-gradient(90deg, #000, #fff, #000);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: shine 3.5s linear infinite;
+  position: relative;
+}
+
+@keyframes shine {
+  0% {
+    background-position-x: -500%;
+  }
+  100% {
+    background-position-x: 500%;
+  }
+}
+.autor {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+}
+.subtext {
+  font-family: "SF Pro Display";
+  color: rgb(109, 3, 158);
+  font-size: 1.5rem;
+}
+
+.minitext {
+  font-family: "SF Pro Display";
+  color: white;
+  font-size: 0.7rem;
+}
