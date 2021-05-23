@@ -8,7 +8,6 @@ function Home() {
         <h1 className={classes.subtext}>
           Once you stop learning, you start dying.
         </h1>
-        <p className={classes.minitext}>- Albert Eistein -</p>
       </div>
     </div>
   );

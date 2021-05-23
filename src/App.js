@@ -1,11 +1,20 @@
 import HomePage from "./pages/HomePage";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Layout from "./components/layout/Layout.js";
+import Contact from "./pages/Contact";
 function App() {
   return (
     <BrowserRouter>
-      <Route>
-        <HomePage />
-      </Route>
+      <Layout>
+        <Switch>
+          <Route path="/" exact>
+            <HomePage />
+          </Route>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+        </Switch>
+      </Layout>
     </BrowserRouter>
   );
 }

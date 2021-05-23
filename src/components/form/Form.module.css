@@ -1,0 +1,45 @@
+.container {
+  font-family: "SF Pro Display";
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -45%);
+  padding: 5vh;
+  border-radius: 20px;
+}
+
+label {
+  color: rgb(255, 255, 255);
+}
+
+input[type="text"],
+input[type="file"],
+input[type="tel"],
+select,
+.textarea {
+  display: flex;
+  width: 50vh;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  margin-top: 6px;
+  margin-bottom: 20px;
+}
+.textarea {
+  padding: 4rem;
+}
+
+input[type="submit"] {
+  background-color: #171bff;
+  color: white;
+  padding: 12px 20px;
+  width: 50vh;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #4759ff;
+}
