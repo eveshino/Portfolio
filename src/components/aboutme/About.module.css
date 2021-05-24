@@ -1,0 +1,21 @@
+.main {
+  background-color: rgb(0, 0, 0);
+  height: 90vh;
+  font-family: "SF Pro Display";
+}
+.header {
+  position: relative;
+  height: 80vh;
+  overflow: hidden;
+}
+.text {
+  color: white;
+}
+.myself {
+  width: 45vh;
+
+  position: absolute;
+  top: 50%;
+  right: 7%;
+  transform: translateY(-50%);
+}
