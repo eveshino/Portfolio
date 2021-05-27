@@ -18,7 +18,6 @@ function Introduction() {
           elit pretium fringilla. In sem sem, laoreet sit amet porttitor elit
           pretium fringilla.
         </p>
-
         <Link to="/">
           <button className={classes.button}>Get in touch!</button>
         </Link>

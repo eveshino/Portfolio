@@ -31,15 +31,15 @@ function Form() {
         <form className={classes.form} onSubmit={sendEmail}>
           <div className={classes.box}>
             <label htmlFor="email">Email:</label>
-            <input type="text" id="email" name="email" placeholder="Email..." />
+            <input type="text" id="email" name="email" />
           </div>
           <div className={classes.box}>
             <label htmlFor="tel">Phone:</label>
-            <input id="tel" name="tel" type="tel" placeholder="phone number" />
+            <input id="tel" name="tel" type="tel" />
           </div>
           <div className={classes.box}>
             <label htmlFor="nome">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Name.." />
+            <input type="text" id="name" name="name" />
           </div>
           <div className={classes.box}>
             <label htmlFor="mensagem">Message:</label>
@@ -47,7 +47,6 @@ function Form() {
               type="message"
               id="message"
               name="message"
-              placeholder="Message.."
               className={classes.textarea}
             ></input>
           </div>

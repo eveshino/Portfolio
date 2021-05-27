@@ -9,6 +9,14 @@
   overflow: hidden;
 }
 .text {
+  font-size: 3.2rem;
+  margin-left: 130px;
+  margin-top: 80px;
+  color: white;
+}
+.textP {
+  font-size: 1rem;
+  margin-left: 130px;
   color: white;
 }
 .myself {
@@ -16,6 +24,6 @@
 
   position: absolute;
   top: 50%;
-  right: 7%;
+  right: 20%;
   transform: translateY(-50%);
 }
