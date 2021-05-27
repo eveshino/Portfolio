@@ -10,20 +10,31 @@
 }
 .text {
   font-size: 3.2rem;
-  margin-left: 130px;
+  margin-left: 120px;
   margin-top: 80px;
   color: white;
 }
 .textP {
   font-size: 1rem;
-  margin-left: 130px;
+  margin-left: 120px;
   color: white;
 }
 .myself {
   width: 45vh;
-
   position: absolute;
   top: 50%;
   right: 20%;
   transform: translateY(-50%);
+}
+
+.icons {
+  display: flex;
+  margin-top: 5vh;
+  margin-left: 110px;
+}
+.icon {
+  cursor: pointer;
+  margin: 0 5px;
+  color: white;
+  font-size: 2rem;
 }

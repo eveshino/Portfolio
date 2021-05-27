@@ -1,6 +1,10 @@
 import classes from "./ProjectCards.module.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import clipfy from "../../images/clipfy.jpeg";
+import decastrothi from "../../images/decastrothi.jpeg";
+import thepath from "../../images/thepath.jpeg";
+import ProjCard from "./ProjCard";
 
 function ProjectCards() {
   return (
@@ -52,17 +56,29 @@ function ProjectCards() {
         slidesToSlide={1}
         swipeable
       >
-        <div></div>
-        <div>
-          description="React Carousel with Server Side Rendering Support – Part
-          1" headline="w3js.com - web front-end studio"
-          image="https://images.unsplash.com/photo-1549396535-c11d5c55b9df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
-        </div>
-        <div>
-          description="Fixing CSS load order/style.chunk.css incorrect in
-          Nextjs" headline="w3js.com - web front-end studio"
-          image="https://images.unsplash.com/photo-1550133730-695473e544be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
-        </div>
+        <ProjCard
+          ProjImg={decastrothi}
+          ProjName={"decastrothi"}
+          link={"http://www.decastrothi.com/"}
+          title={"Decastrothi"}
+          p={"Photography website with vanilla Javascript"}
+        />
+        <ProjCard
+          ProjImg={thepath}
+          ProjName={"thepath"}
+          link={"https://thepath0.herokuapp.com/"}
+          title={"The Path"}
+          p={"Application that I'm using to mark my developer path"}
+        />
+        <ProjCard
+          ProjImg={clipfy}
+          ProjName={"Clipfy"}
+          link={""}
+          title={"Clipfy"}
+          p={
+            "Starting this new project with a friend,Creating a Link tree with NFC tag"
+          }
+        />
       </Carousel>
     </div>
   );
