@@ -58,3 +58,27 @@ button:hover {
   background-color: #000000;
   color: rgb(255, 255, 255);
 }
+
+@media screen and (max-width: 1424px) {
+  .button {
+    margin-top: 5px;
+  }
+  .card {
+    max-width: 100%;
+  }
+  .logo {
+    max-width: 90%;
+  }
+}
+@media screen and (max-width: 347px) {
+  .button {
+    margin-bottom: 5px;
+  }
+  .card {
+    width: auto;
+    height: auto;
+  }
+  .textarea {
+    margin: 0;
+  }
+}

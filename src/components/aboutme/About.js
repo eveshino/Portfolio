@@ -8,6 +8,7 @@ import {
   faInstagramSquare,
   faLine,
 } from "@fortawesome/free-brands-svg-icons";
+
 function About() {
   return (
     <div className={classes.main}>
@@ -68,7 +69,7 @@ function About() {
           </a>
         </div>
       </div>
-      <div>
+      <div className={classes.pic}>
         <img className={classes.myself} src={myself} alt="myself" />
       </div>
     </div>

@@ -38,3 +38,41 @@
   color: white;
   font-size: 2rem;
 }
+
+@media screen and (max-width: 1224px) {
+  .main {
+    display: block;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .header {
+    height: auto;
+  }
+  .text {
+    font-size: 2rem;
+    margin: 40px;
+  }
+  .textP {
+    font-size: 0.8rem;
+    margin: 0;
+  }
+  .myself {
+    position: static;
+    width: 30vh;
+    margin-top: 130px;
+  }
+  .pic {
+    height: 50vh;
+  }
+  .icons {
+    margin: 40px;
+    justify-content: center;
+  }
+  .icon {
+    margin: 0 10px;
+  }
+}

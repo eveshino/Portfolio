@@ -41,11 +41,14 @@
 
 @media screen and (max-width: 1024px) {
   .header {
-    height: 5vh;
+    height: 7vh;
     padding: 0;
   }
 
   .header li {
     margin-left: 1rem;
+  }
+  .header a {
+    margin-right: 8px;
   }
 }
