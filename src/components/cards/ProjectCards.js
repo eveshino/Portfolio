@@ -75,9 +75,7 @@ function ProjectCards() {
           ProjName={"Clipfy"}
           link={""}
           title={"Clipfy"}
-          p={
-            "Starting this new project with a friend,Creating a Link tree with NFC tag"
-          }
+          p={"New project,Creating a Link tree with NFC tag"}
         />
       </Carousel>
     </div>

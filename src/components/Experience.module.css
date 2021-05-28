@@ -2,3 +2,10 @@
   width: 70%;
   margin: 100px 200px;
 }
+
+@media screen and (max-width: 1024px) {
+  .carousel {
+    margin: 20px;
+    margin-left: 50px;
+  }
+}

@@ -21,3 +21,8 @@
   height: 35vh;
   width: 100%;
 }
+@media screen and (max-width: 1024px) {
+  .carousel {
+    margin: 0;
+  }
+}

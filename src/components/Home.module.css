@@ -14,11 +14,10 @@
   height: 3vh;
   justify-content: center;
   align-items: center;
-  font-family: "SF Pro Display";
 }
 .maintext {
   font-size: 5rem;
-  font-family: "SF Pro Display";
+
   background: linear-gradient(90deg, #000, #fff, #000);
   -webkit-background-clip: text;
   background-clip: text;
@@ -44,13 +43,41 @@
   transform: translate(-40%, -50%);
 }
 .subtext {
-  font-family: "SF Pro Display";
   color: rgb(109, 3, 158);
   font-size: 1.5rem;
 }
 
 .minitext {
-  font-family: "SF Pro Display";
   color: white;
   font-size: 0.7rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .home {
+    height: 40vh;
+    max-width: 100%;
+    display: block;
+    margin: 0;
+  }
+  .autor {
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    position: relative;
+
+    text-align: start;
+  }
+  .text {
+    font-size: 0.3rem;
+  }
+  .maintext {
+    margin: 0;
+    padding: 0;
+    background-size: 80%;
+    font-size: 2rem;
+    animation: shine 3.5s linear infinite;
+  }
+  .subtext {
+    font-size: 1rem;
+  }
 }

@@ -9,8 +9,8 @@ function Introduction() {
       <div className={classes.nameIntro}>
         <h1>
           Hello,
-          <br /> I'm{" "}
-          <span className={classes.nameColor}>Everson Shinohara.</span>
+          <br /> I'm
+          <span className={classes.nameColor}> Everson Shinohara</span>
         </h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in
@@ -18,7 +18,7 @@ function Introduction() {
           elit pretium fringilla. In sem sem, laoreet sit amet porttitor elit
           pretium fringilla.
         </p>
-        <Link to="/">
+        <Link to="/contact">
           <button className={classes.button}>Get in touch!</button>
         </Link>
       </div>
