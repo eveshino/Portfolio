@@ -14,7 +14,9 @@
   font-size: 4rem;
   margin: 0;
 }
-
+.nameIntro p {
+  font-size: 1.2rem;
+}
 .nameColor {
   color: rgb(166, 37, 226);
 }
@@ -57,7 +59,7 @@
     width: 100%;
   }
   .nameIntro h1 {
-    font-size: 2rem;
+    font-size: 2.3rem;
     margin: 0;
   }
 

@@ -12,12 +12,7 @@ function Introduction() {
           <br /> I'm
           <span className={classes.nameColor}> Everson Shinohara</span>
         </h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in
-          justo vitae <br />
-          elit pretium fringilla. In sem sem, laoreet sit amet porttitor elit
-          pretium fringilla.
-        </p>
+        <p>Front End Web developer and Web designer based in Japan.</p>
         <Link to="/contact">
           <button className={classes.button}>Get in touch!</button>
         </Link>

@@ -15,18 +15,17 @@ function About() {
       <div className={classes.header}>
         <h1 className={classes.text}>About me</h1>
         <p className={classes.textP}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in
-          justo vitae <br />
-          elit pretium fringilla. In sem sem, laoreet sit amet porttitor elit
-          pretium fringilla.
-          <br /> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Integer in justo vitae <br />
-          elit pretium fringilla. In sem sem, laoreet sit amet porttitor elit
-          pretium fringilla.
-          <br /> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Integer in justo vitae <br />
-          elit pretium fringilla. In sem sem, laoreet sit amet porttitor elit
-          pretium fringilla.
+          I'm Shino, Web developer specialized in front-end.
+          <br />
+          working with html 5, css 3, javascript, react, adobe XD and adobe
+          illustrator.
+          <br /> I'm always trying to create an unique,special and responsive
+          Website <br />
+          to provide the the best User Experience.
+          <br />
+          <br /> Feel free to contact me or send me an email on any social media{" "}
+          <br />
+          Languages: Portuguese,Japanese and English.
         </p>
         <div className={classes.icons}>
           <a

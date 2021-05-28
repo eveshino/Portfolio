@@ -60,6 +60,9 @@ button:hover {
 }
 
 @media screen and (max-width: 1424px) {
+  .container {
+    margin: 0;
+  }
   .button {
     margin-top: 5px;
   }
