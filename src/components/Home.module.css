@@ -73,11 +73,14 @@
   .maintext {
     margin: 0;
     padding: 0;
+    height: auto;
     background-size: 80%;
     font-size: 2rem;
     animation: shine 3.5s linear infinite;
   }
   .subtext {
+    height: auto;
     font-size: 1rem;
+    margin-top: 10px;
   }
 }

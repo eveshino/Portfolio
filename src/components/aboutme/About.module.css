@@ -50,7 +50,7 @@
     padding: 0;
   }
   .header {
-    height: auto;
+    height: 65vh;
   }
   .text {
     font-size: 2rem;
@@ -63,7 +63,7 @@
   .myself {
     position: static;
     width: 30vh;
-    margin-top: 130px;
+    margin-top: 110px;
   }
   .pic {
     height: 50vh;
