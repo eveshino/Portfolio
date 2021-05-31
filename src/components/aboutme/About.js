@@ -15,11 +15,11 @@ function About() {
       <div className={classes.header}>
         <h1 className={classes.text}>About me</h1>
         <p className={classes.textP}>
-          I'm Shino, Web developer specialized in front-end.
+          I'm Shino,A Web developer specialized in front-end.
           <br />
           working with html 5, css 3, javascript, react, adobe XD and adobe
           illustrator.
-          <br /> I'm always trying to create an unique,special and responsive
+          <br /> I'm always trying to create a unique,special and responsive
           Website <br />
           to provide the the best User Experience.
           <br />
