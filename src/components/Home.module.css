@@ -74,7 +74,7 @@
   .maintext {
     margin: 0;
     padding: 0;
-    height: 10vh;
+    height: auto;
 
     font-size: 1.7rem;
     animation: shine 2.5s linear infinite;
