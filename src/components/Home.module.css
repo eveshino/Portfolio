@@ -55,28 +55,26 @@
 
 @media screen and (max-width: 1024px) {
   .home {
+    border: none;
     height: 40vh;
     max-width: 100%;
     display: block;
     margin: 0;
   }
   .autor {
+    border: none;
     margin: 0;
     padding: 0;
     width: 80%;
     position: relative;
-
     text-align: start;
   }
   .text {
     font-size: 0.3rem;
   }
   .maintext {
-    margin: 0;
-    padding: 0;
-    height: auto;
-
-    font-size: 1.7rem;
+    height: 10vh;
+    font-size: 1.8rem;
     animation: shine 2.5s linear infinite;
   }
   .subtext {
