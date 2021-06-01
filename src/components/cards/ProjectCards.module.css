@@ -4,7 +4,7 @@
   color: black;
   background-color: rgb(255, 255, 255);
   width: 70%;
-  height: 60vh;
+  height: auto;
 }
 @media screen and (max-width: 1024px) {
   .project {

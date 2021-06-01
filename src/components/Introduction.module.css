@@ -16,6 +16,7 @@
 }
 .nameIntro p {
   font-size: 1.2rem;
+  margin-top: 15px;
 }
 .nameColor {
   color: rgb(166, 37, 226);

@@ -1,7 +1,8 @@
 import React from "react";
-import About from "../components/aboutme/About";
+
+import Project from "../components/Project";
 
 function Aboutme() {
-  return <About />;
+  return <Project />;
 }
 export default Aboutme;

@@ -1,6 +1,15 @@
 .carousel {
   width: 70%;
-  margin: 100px 200px;
+  margin: 80px 200px;
+}
+.text {
+  width: auto;
+  text-align: center;
+  justify-content: center;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 0;
+  font-size: 2rem;
 }
 
 @media screen and (max-width: 1024px) {

@@ -1,7 +1,7 @@
 import classes from "./ProjectCards.module.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import clipfy from "../../images/clipfy.jpeg";
+import clipfy from "../../images/clipfy.jpg";
 import decastrothi from "../../images/decastrothi.jpeg";
 import thepath from "../../images/thepath.jpeg";
 import ProjCard from "./ProjCard";
@@ -73,7 +73,7 @@ function ProjectCards() {
         <ProjCard
           ProjImg={clipfy}
           ProjName={"Clipfy"}
-          link={""}
+          link={"https://youtu.be/WJXVjqmIv1M"}
           title={"Clipfy"}
           p={"New project,Creating a Link tree with NFC tag"}
         />

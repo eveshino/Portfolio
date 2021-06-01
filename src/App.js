@@ -15,7 +15,7 @@ function App() {
           <Route path="/contact">
             <Contact />
           </Route>
-          <Route path="/aboutme">
+          <Route path="/projects">
             <Aboutme />
           </Route>
           <Route path="/clipfy">

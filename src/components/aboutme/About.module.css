@@ -12,12 +12,13 @@
 
 .header {
   position: relative;
-  height: 80vh;
+  height: auto;
   overflow: hidden;
 }
 .text {
   font-size: 3rem;
   margin: 40px;
+  margin-bottom: 10px;
   color: white;
 }
 .textP {
@@ -27,8 +28,7 @@
 }
 .myself {
   width: 45vh;
-  position: static;
-  transform: translateY(-40%);
+  padding-bottom: 30px;
 }
 
 .icons {
@@ -44,16 +44,12 @@
 
 @media screen and (max-width: 1224px) {
   .header {
-    height: 65vh;
+    height: auto;
   }
   .text {
     font-size: 2rem;
   }
   .myself {
     width: 30vh;
-    margin-top: 30px;
-  }
-  .pic {
-    height: 40vh;
   }
 }
