@@ -6,7 +6,7 @@ import logo from "../../images/logo.svg";
 function Form() {
   function sendEmail(e) {
     e.preventDefault();
-
+    alert("Thank you, I'll be in touch!");
     emailjs
       .sendForm(
         "service_keehfv5",
