@@ -2,8 +2,9 @@ import HomePage from "./pages/HomePage";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Layout from "./components/layout/Layout.js";
 import Contact from "./pages/Contact";
-import Aboutme from "./pages/Aboutme";
 import Links from "./components/links/Links";
+import Projects from "./pages/Projects";
+
 function App() {
   return (
     <BrowserRouter>
@@ -16,7 +17,7 @@ function App() {
             <Contact />
           </Route>
           <Route path="/projects">
-            <Aboutme />
+            <Projects />
           </Route>
           <Route path="/clipfy">
             <Links />

@@ -37,7 +37,6 @@
   margin: 10px;
   width: 100%;
   height: 50px;
-  background-color: #1c33ff;
   border-radius: 40px;
 }
 .link a {
@@ -45,6 +44,7 @@
   color: white;
   text-decoration: none;
 }
+
 .icon {
   color: white;
   margin: 0 40px;

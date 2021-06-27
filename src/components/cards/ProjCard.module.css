@@ -3,8 +3,9 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 55vh;
+  height: 80vh;
   width: 80vh;
+  margin-top: 80px;
 }
 
 .card {
@@ -42,26 +43,27 @@
 
 @media screen and (max-width: 1024px) {
   .carousel {
-    width: 90%;
+    width: 100%;
     margin: 0 0px;
     padding: 0;
     height: auto;
+    margin-top: 80px;
   }
   .card {
     margin: 0;
     height: auto;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
   }
   .card img {
-    margin-top: 2vh;
-    max-height: 20vh;
+    margin-top: 3vh;
+    max-height: 25vh;
     width: 350px;
   }
   .card h1 {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .card a {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }
 @media screen and (max-width: 370px) {
@@ -70,7 +72,7 @@
     height: auto;
   }
   .card img {
-    width: 300px;
+    width: 270px;
   }
   .card {
     height: auto;
