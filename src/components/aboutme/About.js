@@ -42,23 +42,7 @@ function About() {
           >
             <FontAwesomeIcon className={classes.icon} icon={faLinkedin} />
           </a>
-          <a
-            href="https://www.facebook.com/Eveshino"
-            target="_blank"
-            rel="facebook noreferrer"
-          >
-            <FontAwesomeIcon className={classes.icon} icon={faFacebookSquare} />
-          </a>
-          <a
-            href="https://www.instagram.com/eve_shino/"
-            target="_blank"
-            rel="instagram  noreferrer"
-          >
-            <FontAwesomeIcon
-              className={classes.icon}
-              icon={faInstagramSquare}
-            />
-          </a>
+
           <a
             href="https://timeline.line.me/user/_db2tRRlb7r7RExu_5fv9KYPR7gCF2l16cBv2fFQ"
             target="_blank"

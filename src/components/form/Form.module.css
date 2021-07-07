@@ -43,7 +43,7 @@ input {
 }
 .button {
   font-family: "SF Pro Display";
-  background-color: #171bff;
+  background-color: #a625e2;
   color: white;
   padding: 10px;
   width: 15vh;
@@ -52,11 +52,12 @@ input {
   border: none;
   border-radius: 7px;
   cursor: pointer;
+
+  transition: filter 0.2s;
 }
 
 button:hover {
-  background-color: #000000;
-  color: rgb(255, 255, 255);
+  filter: brightness(0.8);
 }
 
 @media screen and (max-width: 1424px) {

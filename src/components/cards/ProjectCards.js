@@ -3,7 +3,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import clipfy from "../../images/clipfy.jpg";
 import decastrothi from "../../images/decastrothi.jpeg";
-import thepath from "../../images/thepath.jpeg";
+import letmeask from "../../images/letmeask.jpeg";
 import ProjCard from "./ProjCard";
 
 function ProjectCards() {
@@ -59,16 +59,16 @@ function ProjectCards() {
         <ProjCard
           ProjImg={decastrothi}
           ProjName={"decastrothi"}
-          link={"http://www.decastrothi.com/"}
+          link={"https://github.com/eveshino/thiagohidaka"}
           title={"Decastrothi"}
           p={"Photography website with vanilla Javascript"}
         />
         <ProjCard
-          ProjImg={thepath}
-          ProjName={"thepath"}
-          link={"https://thepath0.herokuapp.com/"}
-          title={"The Path"}
-          p={"Application that I'm using to mark my developer path"}
+          ProjImg={letmeask}
+          ProjName={"letmeask"}
+          link={"https://github.com/eveshino/Letmeask"}
+          title={"LetMeAsk"}
+          p={"Application that i made to implemente firebase features."}
         />
         <ProjCard
           ProjImg={clipfy}
