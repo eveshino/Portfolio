@@ -2,10 +2,8 @@ import classes from "./About.module.css";
 import myself from "../../images/myself.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faFacebookSquare,
   faGithubSquare,
   faLinkedin,
-  faInstagramSquare,
   faLine,
 } from "@fortawesome/free-brands-svg-icons";
 
