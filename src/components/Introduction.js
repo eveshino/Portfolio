@@ -16,6 +16,13 @@ function Introduction() {
         <Link to="/contact">
           <button className={classes.button}>Get in touch!</button>
         </Link>
+        <a
+          href="https://github.com/eveshino?tab=repositories"
+          target="_blank"
+          rel="github noreferrer"
+        >
+          <button className={classes.button}>Github</button>
+        </a>
       </div>
       <div>
         <img className={classes.svg} src={ReactLogo} alt="guy working" />
